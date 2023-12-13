@@ -1,0 +1,307 @@
+@font-face {
+  font-family: custom;
+  src: url(static/SpaceGrotesk-Light.ttf);
+}
+
+
+
+@media (max-width: 992px){
+  .card-wrapper{
+    position: relative;
+  
+  }
+
+  body {
+    margin: 0;
+    font-family: 'custome', sans-serif;
+  }
+  
+  .colored-card{
+    border: 1px solid black;
+    background-image: url(images/bg-card-front.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 270px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    top: 130px;
+    left: 20px;
+  }
+  
+  .nocolor-card{
+    border: 1px solid black;
+    background-image: url(images/bg-card-back.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 270px;
+    border-radius: 8px;
+    padding: 20px;
+    position: absolute;
+    left: 70px;
+    top: 26px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  .nocolor-card, span{
+    margin-right: 10px;
+  }
+  
+  
+  .btn-confirm{
+    color: white;
+    background-color: hsl(278, 68%, 11%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  
+  .holder-card{
+    background-image: url(images/bg-main-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+  }
+  
+  .content{
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+  }
+  
+  h3{
+    color: #21092F;
+    font-size: 15px;
+  }
+  
+  .name-number{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    color: lightgray;
+    font-weight: bold;
+  }
+  
+  .date{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .name-number1{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    color: lightgray;
+    font-weight: bold;
+    width: 15%;
+  }
+  
+  .name-number2{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    color: lightgray;
+    font-weight: bold;
+    width: 40%;
+  }
+  
+  .card-number{
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .date-name{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+  
+  }
+  
+  .logo-card{
+    width: 60px;
+  }
+
+}
+
+
+@media (min-width: 993px){
+  body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  .card-wrapper{
+    position: relative;
+  
+  }
+  
+  .colored-card{
+    border: 1px solid black;
+    background-image: url(images/bg-card-front.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 270px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    top: 180px;
+    left: 550px;
+  }
+  
+  .nocolor-card{
+    border: 1px solid black;
+    background-image: url(images/bg-card-back.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 140px;
+    width: 270px;
+    border-radius: 8px;
+    padding: 20px;
+    position: absolute;
+    left: 600px;
+    top: 400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  .nocolor-card, span{
+    margin-right: 10px;
+  }
+  
+  
+  .btn-confirm{
+    color: white;
+    background-color: hsl(278, 68%, 11%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+  }
+  
+  .holder-card{
+    background-image: url(images/bg-main-mobile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100vh;
+  }
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* margin-left: 80px; */
+  }
+
+  .content-form{
+    width: 60%;
+    margin-left: 400px;
+  }
+  
+  h3{
+    color: #21092F;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .name-number{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    color: lightgray;
+    font-weight: bold;
+  }
+  
+  .date{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .name-number1{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    color: lightgray;
+    font-weight: bold;
+    width: 15%;
+  }
+  
+  .name-number2{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    padding: 10px;
+    padding-left: 10px;
+    color: lightgray;
+    font-weight: bold;
+    width: 40%;
+  }
+  
+  .card-number{
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .date-name{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+  
+  }
+  
+  .logo-card{
+    width: 60px;
+  }
+
+}
+
